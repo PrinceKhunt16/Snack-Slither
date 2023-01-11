@@ -1,4 +1,4 @@
-import React, { createRef, useEffect, useState } from 'react'
+import React, { createRef, useEffect } from 'react'
 import FoodSound from "../assets/music/food.mp3" 
 import GameOverSound from "../assets/music/gameover.mp3" 
 import MoveSound from "../assets/music/move.mp3" 
@@ -105,7 +105,7 @@ const SnackPlayGround = () => {
 
   useEffect(() => {  
     window.requestAnimationFrame(main)
-  }, [])
+  })
  
   return (
     <div className='body'>
