@@ -1,11 +1,12 @@
 import './App.css';
+import SnackPlayGround from './components/SnackPlayGround';
 
 function App() {
   return (
     <div className="App">
-      Snack Slither
+      <SnackPlayGround />
     </div>
   );
 }
-
+ 
 export default App;
