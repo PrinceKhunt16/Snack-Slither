@@ -1,4 +1,4 @@
-import React, { createRef, useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import FoodSound from "../assets/music/food.mp3" 
 import GameOverSound from "../assets/music/gameover.mp3" 
 import MoveSound from "../assets/music/move.mp3" 
@@ -7,7 +7,7 @@ const SnackPlayGround = () => {
   const foodSound = new Audio(FoodSound)
   const gameOverSound = new Audio(GameOverSound)
   const moveSound = new Audio(MoveSound)
-  const board = createRef()
+  const board = useRef()
   let lastTime = 0
   let snack = [{x: 4, y: 4}]
   let valocity = {x: 0, y: 0}
