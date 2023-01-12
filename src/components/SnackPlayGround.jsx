@@ -20,7 +20,6 @@ const SnackPlayGround = () => {
       return
     }
 
-    console.log(currentTime)
     lastTime = currentTime
     gameEngine()
   }
