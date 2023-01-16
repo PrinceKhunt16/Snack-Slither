@@ -9,10 +9,8 @@
 }
 
 .body {
-  background: url('./assets/image/bg.jpg');
-  background-size: 100vw 100vh;
+  background: #f0f8ff;
   min-height: 100vh;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,8 +18,8 @@
 
 .board {
   background: #00000040;
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   display: grid;
   grid-template-columns: repeat(15, 1fr);
   grid-template-rows: repeat(15, 1fr);
@@ -29,12 +27,15 @@
  
 .head {
   background-color: #9f2121;
+  border-radius: 50%;
 }
 
 .food {
   background-color: #002280;
+  border-radius: 50%;
 }
 
 .snack {
   background-color: #983232;
+  border-radius: 50%;
 }
